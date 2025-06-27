@@ -1,0 +1,134 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/4341274
+Evaluating trained model with timestamp: 20250418_030126_899746
+Evaluating Model 20250418_030126_899746 finetuned for None on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 43.1493 seconds
+Elapsed time 1x RL : 11.6741 seconds
+Elapsed time nearest insertion : 34.8728 seconds
+Elapsed time farthest insertion : 34.8361 seconds
+Elapsed time nearest neighbor : 0.6169 seconds
+Elapsed time LKH : 323.9407 seconds
+Computing distances of algorithms for XASY
+Average length RL: 4.1060836984
+Average length RL x1: 5.1171988015
+Average length LKH: 1.6544675412
+Average length nearest insertion: 9.3603810095
+Average length farthest insertion: 9.6191387398
+Average length nearest neighbor: 5.3758605926
+Gaps relative to LKH:
+Average gap RL: 148.18%
+Average gap RL x1: 209.3%
+Average gap nearest insertion: 465.76%
+Average gap farthest insertion: 481.4%
+Average gap nearest neighbor: 224.93%
+--------------------------------------------------------
+Evaluating Model 20250418_030126_899746 finetuned for 200 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 38.2221 seconds
+Elapsed time 1x RL : 11.8693 seconds
+Elapsed time nearest insertion : 32.7938 seconds
+Elapsed time farthest insertion : 35.1798 seconds
+Elapsed time nearest neighbor : 0.6139 seconds
+Elapsed time LKH : 323.7928 seconds
+Computing distances of algorithms for XASY
+Average length RL: 2.4026817924
+Average length RL x1: 2.5809296273
+Average length LKH: 1.6544675412
+Average length nearest insertion: 9.3603810095
+Average length farthest insertion: 9.6191387398
+Average length nearest neighbor: 5.3758605926
+Gaps relative to LKH:
+Average gap RL: 45.22%
+Average gap RL x1: 56.0%
+Average gap nearest insertion: 465.76%
+Average gap farthest insertion: 481.4%
+Average gap nearest neighbor: 224.93%
+--------------------------------------------------------
+Evaluating Model 20250418_030126_899746 finetuned for 500 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 38.0063 seconds
+Elapsed time 1x RL : 11.6533 seconds
+Elapsed time nearest insertion : 33.2163 seconds
+Elapsed time farthest insertion : 35.3967 seconds
+Elapsed time nearest neighbor : 0.6317 seconds
+Elapsed time LKH : 323.9403 seconds
+Computing distances of algorithms for XASY
+Average length RL: 3.3664044309
+Average length RL x1: 4.0188422385
+Average length LKH: 1.6544675412
+Average length nearest insertion: 9.3603810095
+Average length farthest insertion: 9.6191387398
+Average length nearest neighbor: 5.3758605926
+Gaps relative to LKH:
+Average gap RL: 103.47%
+Average gap RL x1: 142.91%
+Average gap nearest insertion: 465.76%
+Average gap farthest insertion: 481.4%
+Average gap nearest neighbor: 224.93%
+--------------------------------------------------------
+Evaluating Model 20250418_030126_899746 finetuned for None on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 296.6641 seconds
+Elapsed time 1x RL : 45.7934 seconds
+Elapsed time nearest insertion : 476.7020 seconds
+Elapsed time farthest insertion : 528.1337 seconds
+Elapsed time nearest neighbor : 3.8531 seconds
+Elapsed time LKH : 2312.2460 seconds
+Computing distances of algorithms for XASY
+Average length RL: 6.777919752
+Average length RL x1: 7.7721377557
+Average length LKH: 1.6567037238
+Average length nearest insertion: 14.9389795394
+Average length farthest insertion: 15.1711484726
+Average length nearest neighbor: 6.2998070849
+Gaps relative to LKH:
+Average gap RL: 309.12%
+Average gap RL x1: 369.13%
+Average gap nearest insertion: 801.73%
+Average gap farthest insertion: 815.74%
+Average gap nearest neighbor: 280.26%
+--------------------------------------------------------
+Evaluating Model 20250418_030126_899746 finetuned for 200 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 293.2505 seconds
+Elapsed time 1x RL : 45.0434 seconds
+Elapsed time nearest insertion : 472.8515 seconds
+Elapsed time farthest insertion : 521.5827 seconds
+Elapsed time nearest neighbor : 3.7580 seconds
+Elapsed time LKH : 2351.8371 seconds
+Computing distances of algorithms for XASY
+Average length RL: 7.7503514021
+Average length RL x1: 9.4484281452
+Average length LKH: 1.6567037238
+Average length nearest insertion: 14.9389795394
+Average length farthest insertion: 15.1711484726
+Average length nearest neighbor: 6.2998070849
+Gaps relative to LKH:
+Average gap RL: 367.82%
+Average gap RL x1: 470.31%
+Average gap nearest insertion: 801.73%
+Average gap farthest insertion: 815.74%
+Average gap nearest neighbor: 280.26%
+--------------------------------------------------------
+Evaluating Model 20250418_030126_899746 finetuned for 500 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 313.8592 seconds
+Elapsed time 1x RL : 46.4175 seconds
+Elapsed time nearest insertion : 485.4075 seconds
+Elapsed time farthest insertion : 530.4627 seconds
+Elapsed time nearest neighbor : 3.7598 seconds
+Elapsed time LKH : 2367.2570 seconds
+Computing distances of algorithms for XASY
+Average length RL: 3.4000117582
+Average length RL x1: 3.7897691624
+Average length LKH: 1.6567037238
+Average length nearest insertion: 14.9389795394
+Average length farthest insertion: 15.1711484726
+Average length nearest neighbor: 6.2998070849
+Gaps relative to LKH:
+Average gap RL: 105.23%
+Average gap RL x1: 128.75%
+Average gap nearest insertion: 801.73%
+Average gap farthest insertion: 815.74%
+Average gap nearest neighbor: 280.26%
+--------------------------------------------------------

@@ -1,0 +1,134 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/4341273
+Evaluating trained model with timestamp: 20250417_233308_3268437
+Evaluating Model 20250417_233308_3268437 finetuned for None on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 44.3916 seconds
+Elapsed time 1x RL : 12.0223 seconds
+Elapsed time nearest insertion : 35.5012 seconds
+Elapsed time farthest insertion : 34.9902 seconds
+Elapsed time nearest neighbor : 0.6227 seconds
+Elapsed time LKH : 382.3453 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 19.5514960264
+Average length RL x1: 19.839580007
+Average length LKH: 18.5468569587
+Average length nearest insertion: 25.5849339332
+Average length farthest insertion: 24.0008217331
+Average length nearest neighbor: 25.3552733096
+Gaps relative to LKH:
+Average gap RL: 5.42%
+Average gap RL x1: 6.97%
+Average gap nearest insertion: 37.95%
+Average gap farthest insertion: 29.41%
+Average gap nearest neighbor: 36.71%
+--------------------------------------------------------
+Evaluating Model 20250417_233308_3268437 finetuned for 200 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 38.1064 seconds
+Elapsed time 1x RL : 11.7458 seconds
+Elapsed time nearest insertion : 33.1343 seconds
+Elapsed time farthest insertion : 35.1696 seconds
+Elapsed time nearest neighbor : 0.6243 seconds
+Elapsed time LKH : 382.2882 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 19.3214035916
+Average length RL x1: 19.4892201945
+Average length LKH: 18.5468569587
+Average length nearest insertion: 25.5849339332
+Average length farthest insertion: 24.0008217331
+Average length nearest neighbor: 25.3552733096
+Gaps relative to LKH:
+Average gap RL: 4.18%
+Average gap RL x1: 5.08%
+Average gap nearest insertion: 37.95%
+Average gap farthest insertion: 29.41%
+Average gap nearest neighbor: 36.71%
+--------------------------------------------------------
+Evaluating Model 20250417_233308_3268437 finetuned for 500 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 38.2840 seconds
+Elapsed time 1x RL : 11.9171 seconds
+Elapsed time nearest insertion : 33.6739 seconds
+Elapsed time farthest insertion : 35.0992 seconds
+Elapsed time nearest neighbor : 0.6205 seconds
+Elapsed time LKH : 382.3190 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 19.7445369305
+Average length RL x1: 19.8961973123
+Average length LKH: 18.5468569587
+Average length nearest insertion: 25.5849339332
+Average length farthest insertion: 24.0008217331
+Average length nearest neighbor: 25.3552733096
+Gaps relative to LKH:
+Average gap RL: 6.46%
+Average gap RL x1: 7.28%
+Average gap nearest insertion: 37.95%
+Average gap farthest insertion: 29.41%
+Average gap nearest neighbor: 36.71%
+--------------------------------------------------------
+Evaluating Model 20250417_233308_3268437 finetuned for None on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 301.3352 seconds
+Elapsed time 1x RL : 46.1630 seconds
+Elapsed time nearest insertion : 469.6171 seconds
+Elapsed time farthest insertion : 520.7709 seconds
+Elapsed time nearest neighbor : 3.7704 seconds
+Elapsed time LKH : 2786.1165 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 51.8925080843
+Average length RL x1: 61.7773621097
+Average length LKH: 39.4847220847
+Average length nearest insertion: 57.9504834348
+Average length farthest insertion: 53.9390115633
+Average length nearest neighbor: 54.1994542943
+Gaps relative to LKH:
+Average gap RL: 31.42%
+Average gap RL x1: 56.46%
+Average gap nearest insertion: 46.77%
+Average gap farthest insertion: 36.61%
+Average gap nearest neighbor: 37.27%
+--------------------------------------------------------
+Evaluating Model 20250417_233308_3268437 finetuned for 200 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 290.6606 seconds
+Elapsed time 1x RL : 45.1453 seconds
+Elapsed time nearest insertion : 469.4521 seconds
+Elapsed time farthest insertion : 524.3056 seconds
+Elapsed time nearest neighbor : 3.7919 seconds
+Elapsed time LKH : 2786.1256 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 42.1720780071
+Average length RL x1: 42.5336338941
+Average length LKH: 39.4847220847
+Average length nearest insertion: 57.9504834348
+Average length farthest insertion: 53.9390115633
+Average length nearest neighbor: 54.1994542943
+Gaps relative to LKH:
+Average gap RL: 6.81%
+Average gap RL x1: 7.72%
+Average gap nearest insertion: 46.77%
+Average gap farthest insertion: 36.61%
+Average gap nearest neighbor: 37.27%
+--------------------------------------------------------
+Evaluating Model 20250417_233308_3268437 finetuned for 500 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 291.3287 seconds
+Elapsed time 1x RL : 44.8873 seconds
+Elapsed time nearest insertion : 469.7852 seconds
+Elapsed time farthest insertion : 513.2015 seconds
+Elapsed time nearest neighbor : 3.7633 seconds
+Elapsed time LKH : 2787.1414 seconds
+Computing distances of algorithms for TMAT
+Average length RL: 42.0506160023
+Average length RL x1: 42.2721013107
+Average length LKH: 39.4847220847
+Average length nearest insertion: 57.9504834348
+Average length farthest insertion: 53.9390115633
+Average length nearest neighbor: 54.1994542943
+Gaps relative to LKH:
+Average gap RL: 6.5%
+Average gap RL x1: 7.06%
+Average gap nearest insertion: 46.77%
+Average gap farthest insertion: 36.61%
+Average gap nearest neighbor: 37.27%
+--------------------------------------------------------

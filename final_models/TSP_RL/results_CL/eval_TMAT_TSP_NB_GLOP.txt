@@ -1,0 +1,209 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/4379841
+Evaluating trained model with timestamp: 20250501_222748_357396
+Evaluating Model 20250501_222748_357396 finetuned for None on VRP instances of size 150
+Loaded dataset successfully!
+Elapsed time 8x RL : 10.8023 seconds
+Elapsed time 1x RL : 3.1731 seconds
+Elapsed time nearest insertion : 0.6843 seconds
+Elapsed time farthest insertion : 0.2800 seconds
+Elapsed time nearest neighbor : 0.0277 seconds
+Elapsed time LKH : 6.0310 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.6047106662
+Average length RL x1: 1.610428599
+Average length LKH: 1.5844429321
+Average length nearest insertion: 2.1240430307
+Average length farthest insertion: 2.0299524956
+Average length nearest neighbor: 2.1677571321
+Gaps relative to LKH:
+Average gap RL: 1.28%
+Average gap RL x1: 1.64%
+Average gap nearest insertion: 34.06%
+Average gap farthest insertion: 28.12%
+Average gap nearest neighbor: 36.82%
+Gap GLOP: 19.28%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 200 on VRP instances of size 150
+Loaded dataset successfully!
+Elapsed time 8x RL : 8.2734 seconds
+Elapsed time 1x RL : 3.1285 seconds
+Elapsed time nearest insertion : 0.3929 seconds
+Elapsed time farthest insertion : 0.2550 seconds
+Elapsed time nearest neighbor : 0.0200 seconds
+Elapsed time LKH : 5.3434 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.6088049657
+Average length RL x1: 1.6180102654
+Average length LKH: 1.5844429321
+Average length nearest insertion: 2.1240430307
+Average length farthest insertion: 2.0299524956
+Average length nearest neighbor: 2.1677571321
+Gaps relative to LKH:
+Average gap RL: 1.54%
+Average gap RL x1: 2.12%
+Average gap nearest insertion: 34.06%
+Average gap farthest insertion: 28.12%
+Average gap nearest neighbor: 36.82%
+Gap GLOP: 19.28%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 500 on VRP instances of size 150
+Loaded dataset successfully!
+Elapsed time 8x RL : 7.8034 seconds
+Elapsed time 1x RL : 3.0695 seconds
+Elapsed time nearest insertion : 0.3937 seconds
+Elapsed time farthest insertion : 0.2581 seconds
+Elapsed time nearest neighbor : 0.0199 seconds
+Elapsed time LKH : 5.3164 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 2.0211477995
+Average length RL x1: 2.0288822331
+Average length LKH: 1.5844429321
+Average length nearest insertion: 2.1240430307
+Average length farthest insertion: 2.0299524956
+Average length nearest neighbor: 2.1677571321
+Gaps relative to LKH:
+Average gap RL: 27.56%
+Average gap RL x1: 28.05%
+Average gap nearest insertion: 34.06%
+Average gap farthest insertion: 28.12%
+Average gap nearest neighbor: 36.82%
+Gap GLOP: 19.28%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for None on VRP instances of size 250
+Loaded dataset successfully!
+Elapsed time 8x RL : 17.2595 seconds
+Elapsed time 1x RL : 5.8810 seconds
+Elapsed time nearest insertion : 1.1975 seconds
+Elapsed time farthest insertion : 1.0657 seconds
+Elapsed time nearest neighbor : 0.0335 seconds
+Elapsed time LKH : 14.5765 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.6015214656
+Average length RL x1: 1.6083346659
+Average length LKH: 1.5732565658
+Average length nearest insertion: 2.204489265
+Average length farthest insertion: 2.0588511604
+Average length nearest neighbor: 2.136359667
+Gaps relative to LKH:
+Average gap RL: 1.8%
+Average gap RL x1: 2.23%
+Average gap nearest insertion: 40.12%
+Average gap farthest insertion: 30.87%
+Average gap nearest neighbor: 35.79%
+Gap GLOP: 29.67%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 200 on VRP instances of size 250
+Loaded dataset successfully!
+Elapsed time 8x RL : 17.5034 seconds
+Elapsed time 1x RL : 5.9969 seconds
+Elapsed time nearest insertion : 1.2303 seconds
+Elapsed time farthest insertion : 1.0824 seconds
+Elapsed time nearest neighbor : 0.0376 seconds
+Elapsed time LKH : 14.5781 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.6030914324
+Average length RL x1: 1.6141063658
+Average length LKH: 1.5732565658
+Average length nearest insertion: 2.204489265
+Average length farthest insertion: 2.0588511604
+Average length nearest neighbor: 2.136359667
+Gaps relative to LKH:
+Average gap RL: 1.9%
+Average gap RL x1: 2.6%
+Average gap nearest insertion: 40.12%
+Average gap farthest insertion: 30.87%
+Average gap nearest neighbor: 35.79%
+Gap GLOP: 29.67%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 500 on VRP instances of size 250
+Loaded dataset successfully!
+Elapsed time 8x RL : 17.5369 seconds
+Elapsed time 1x RL : 6.0176 seconds
+Elapsed time nearest insertion : 1.2415 seconds
+Elapsed time farthest insertion : 1.0665 seconds
+Elapsed time nearest neighbor : 0.0375 seconds
+Elapsed time LKH : 14.5890 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 2.0329324648
+Average length RL x1: 2.0515673983
+Average length LKH: 1.5732565658
+Average length nearest insertion: 2.204489265
+Average length farthest insertion: 2.0588511604
+Average length nearest neighbor: 2.136359667
+Gaps relative to LKH:
+Average gap RL: 29.22%
+Average gap RL x1: 30.4%
+Average gap nearest insertion: 40.12%
+Average gap farthest insertion: 30.87%
+Average gap nearest neighbor: 35.79%
+Gap GLOP: 29.67%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for None on VRP instances of size 1000
+Loaded dataset successfully!
+Elapsed time 8x RL : 469.8246 seconds
+Elapsed time 1x RL : 56.0087 seconds
+Elapsed time nearest insertion : 501.3282 seconds
+Elapsed time farthest insertion : 539.8716 seconds
+Elapsed time nearest neighbor : 1.8499 seconds
+Elapsed time LKH : 239.9570 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.6595522999
+Average length RL x1: 1.6824389336
+Average length LKH: 1.6150322002
+Average length nearest insertion: 2.4013648984
+Average length farthest insertion: 2.2348398265
+Average length nearest neighbor: 2.1570223001
+Gaps relative to LKH:
+Average gap RL: 2.76%
+Average gap RL x1: 4.17%
+Average gap nearest insertion: 48.69%
+Average gap farthest insertion: 38.38%
+Average gap nearest neighbor: 33.56%
+Gap GLOP: 44.27%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 200 on VRP instances of size 1000
+Loaded dataset successfully!
+Elapsed time 8x RL : 472.2278 seconds
+Elapsed time 1x RL : 56.2661 seconds
+Elapsed time nearest insertion : 493.9185 seconds
+Elapsed time farthest insertion : 520.8354 seconds
+Elapsed time nearest neighbor : 1.6994 seconds
+Elapsed time LKH : 227.4358 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 1.638382666
+Average length RL x1: 1.6440467997
+Average length LKH: 1.6150322002
+Average length nearest insertion: 2.4013648984
+Average length farthest insertion: 2.2348398265
+Average length nearest neighbor: 2.1570223001
+Gaps relative to LKH:
+Average gap RL: 1.45%
+Average gap RL x1: 1.8%
+Average gap nearest insertion: 48.69%
+Average gap farthest insertion: 38.38%
+Average gap nearest neighbor: 33.56%
+Gap GLOP: 44.27%
+--------------------------------------------------------
+Evaluating Model 20250501_222748_357396 finetuned for 500 on VRP instances of size 1000
+Loaded dataset successfully!
+Elapsed time 8x RL : 469.4157 seconds
+Elapsed time 1x RL : 54.9850 seconds
+Elapsed time nearest insertion : 500.4019 seconds
+Elapsed time farthest insertion : 528.5916 seconds
+Elapsed time nearest neighbor : 1.8171 seconds
+Elapsed time LKH : 226.6104 seconds
+Computing distances of algorithms for TAMT
+Average length RL: 2.0962532662
+Average length RL x1: 2.1064020333
+Average length LKH: 1.6150322002
+Average length nearest insertion: 2.4013648984
+Average length farthest insertion: 2.2348398265
+Average length nearest neighbor: 2.1570223001
+Gaps relative to LKH:
+Average gap RL: 29.8%
+Average gap RL x1: 30.42%
+Average gap nearest insertion: 48.69%
+Average gap farthest insertion: 38.38%
+Average gap nearest neighbor: 33.56%
+Gap GLOP: 44.27%
+--------------------------------------------------------

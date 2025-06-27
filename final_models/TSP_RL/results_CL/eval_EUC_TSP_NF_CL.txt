@@ -1,0 +1,134 @@
+This job can be monitored from: https://job.c3se.chalmers.se/alvis/4341272
+Evaluating trained model with timestamp: 20250417_211812_2961156
+Evaluating Model 20250417_211812_2961156 finetuned for None on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 41.3677 seconds
+Elapsed time 1x RL : 12.2939 seconds
+Elapsed time nearest insertion : 36.5390 seconds
+Elapsed time farthest insertion : 35.8907 seconds
+Elapsed time nearest neighbor : 0.7001 seconds
+Elapsed time LKH : 282.1747 seconds
+Computing distances of algorithms for EUC
+Average length RL: 12.1808982941
+Average length RL x1: 12.4050795412
+Average length LKH: 10.7139796527
+Average length nearest insertion: 13.2199943163
+Average length farthest insertion: 11.6828683121
+Average length nearest neighbor: 13.4456748632
+Gaps relative to LKH:
+Average gap RL: 13.69%
+Average gap RL x1: 15.78%
+Average gap nearest insertion: 23.39%
+Average gap farthest insertion: 9.04%
+Average gap nearest neighbor: 25.5%
+--------------------------------------------------------
+Evaluating Model 20250417_211812_2961156 finetuned for 200 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 37.0414 seconds
+Elapsed time 1x RL : 12.5924 seconds
+Elapsed time nearest insertion : 34.3236 seconds
+Elapsed time farthest insertion : 36.0409 seconds
+Elapsed time nearest neighbor : 0.6917 seconds
+Elapsed time LKH : 282.1148 seconds
+Computing distances of algorithms for EUC
+Average length RL: 10.9993214362
+Average length RL x1: 11.0659905845
+Average length LKH: 10.7139796527
+Average length nearest insertion: 13.2199943163
+Average length farthest insertion: 11.6828683121
+Average length nearest neighbor: 13.4456748632
+Gaps relative to LKH:
+Average gap RL: 2.66%
+Average gap RL x1: 3.29%
+Average gap nearest insertion: 23.39%
+Average gap farthest insertion: 9.04%
+Average gap nearest neighbor: 25.5%
+--------------------------------------------------------
+Evaluating Model 20250417_211812_2961156 finetuned for 500 on VRP instances of size 200
+Loaded dataset successfully!
+Elapsed time 8x RL : 37.0860 seconds
+Elapsed time 1x RL : 12.5769 seconds
+Elapsed time nearest insertion : 34.6278 seconds
+Elapsed time farthest insertion : 36.0894 seconds
+Elapsed time nearest neighbor : 0.6982 seconds
+Elapsed time LKH : 282.0636 seconds
+Computing distances of algorithms for EUC
+Average length RL: 20.632447081
+Average length RL x1: 22.066479495
+Average length LKH: 10.7139796527
+Average length nearest insertion: 13.2199943163
+Average length farthest insertion: 11.6828683121
+Average length nearest neighbor: 13.4456748632
+Gaps relative to LKH:
+Average gap RL: 92.58%
+Average gap RL x1: 105.96%
+Average gap nearest insertion: 23.39%
+Average gap farthest insertion: 9.04%
+Average gap nearest neighbor: 25.5%
+--------------------------------------------------------
+Evaluating Model 20250417_211812_2961156 finetuned for None on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 288.1808 seconds
+Elapsed time 1x RL : 48.5388 seconds
+Elapsed time nearest insertion : 478.5787 seconds
+Elapsed time farthest insertion : 533.5778 seconds
+Elapsed time nearest neighbor : 3.8055 seconds
+Elapsed time LKH : 2136.7250 seconds
+Computing distances of algorithms for EUC
+Average length RL: 23.0294835841
+Average length RL x1: 24.7288412726
+Average length LKH: 16.5071796577
+Average length nearest insertion: 20.6538125242
+Average length farthest insertion: 18.2667399294
+Average length nearest neighbor: 20.7631780158
+Gaps relative to LKH:
+Average gap RL: 39.51%
+Average gap RL x1: 49.81%
+Average gap nearest insertion: 25.12%
+Average gap farthest insertion: 10.66%
+Average gap nearest neighbor: 25.78%
+--------------------------------------------------------
+Evaluating Model 20250417_211812_2961156 finetuned for 200 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 286.3090 seconds
+Elapsed time 1x RL : 46.2467 seconds
+Elapsed time nearest insertion : 481.2525 seconds
+Elapsed time farthest insertion : 535.5538 seconds
+Elapsed time nearest neighbor : 3.8861 seconds
+Elapsed time LKH : 2137.2242 seconds
+Computing distances of algorithms for EUC
+Average length RL: 21.9763890681
+Average length RL x1: 22.4710302375
+Average length LKH: 16.5071796577
+Average length nearest insertion: 20.6538125242
+Average length farthest insertion: 18.2667399294
+Average length nearest neighbor: 20.7631780158
+Gaps relative to LKH:
+Average gap RL: 33.13%
+Average gap RL x1: 36.13%
+Average gap nearest insertion: 25.12%
+Average gap farthest insertion: 10.66%
+Average gap nearest neighbor: 25.78%
+--------------------------------------------------------
+Evaluating Model 20250417_211812_2961156 finetuned for 500 on VRP instances of size 500
+Loaded dataset successfully!
+Elapsed time 8x RL : 283.0529 seconds
+Elapsed time 1x RL : 43.9820 seconds
+Elapsed time nearest insertion : 480.5635 seconds
+Elapsed time farthest insertion : 538.6253 seconds
+Elapsed time nearest neighbor : 3.9863 seconds
+Elapsed time LKH : 2137.2712 seconds
+Computing distances of algorithms for EUC
+Average length RL: 17.6553490093
+Average length RL x1: 17.7483189273
+Average length LKH: 16.5071796577
+Average length nearest insertion: 20.6538125242
+Average length farthest insertion: 18.2667399294
+Average length nearest neighbor: 20.7631780158
+Gaps relative to LKH:
+Average gap RL: 6.96%
+Average gap RL x1: 7.52%
+Average gap nearest insertion: 25.12%
+Average gap farthest insertion: 10.66%
+Average gap nearest neighbor: 25.78%
+--------------------------------------------------------

@@ -1,0 +1,17 @@
+num_layers: 5
+hidden_dim: 128
+heads: 8 # attention heads
+instance_size: 100 # number of cities/nodes in the routing problem instance
+problem: OP # TSP, CVRP, OP
+dataset_size: 25000
+batch_size: 32
+epochs: 400
+num_datasets: 40 ### use num_datasets many different datasets for training (use a different one each epoch)
+task: RL # tour, cost or RL
+lr: 0.0001 # learning rate
+scale_weights: true # scale loss in tour task, as there are much fewer optimal edges than non-optimal edges
+data_distribution: XASY ### EUC (euclidean), SYM (symmetric non-euclidean), XASY (extreme asymmetric), TMAT (asymmetric but triangle inequality holds)
+final_node_layer: false # an optional, final node nevel GNN layer in the RL case (as we need node embeddings for the decoder)
+nodeless: true # completely node-less GREAT (not even temporary node variables for aggregation)
+augmentation_factor: 8 # specifies by which factor data is augmented in the RL case (1 means no augmentation)
+matnet: false # use MatNet instead of GREAT layers
