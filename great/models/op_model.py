@@ -216,12 +216,17 @@ class GREATRL_OP(nn.Module):
                 prizes = prizes[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if prizes.dim() == 1:  # only a single elem in batch
+                    prizes = prizes.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
                 env_dists.append(dists)
                 prizes_list.append(prizes)
-                max_sizes_list.append(data.instance_feature)
+                max_size = data.instance_feature
+                if max_size.dim() == 0:
+                    max_size = max_size.unsqueeze(0)
+                max_sizes_list.append(max_size)
         elif isinstance(self.encoder, MatNet_Encoder):
             for _ in possible_factors:
                 embeddings = self.encoder(data)  # B*(N+1) x H
@@ -240,12 +245,17 @@ class GREATRL_OP(nn.Module):
                 prizes = prizes[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if prizes.dim() == 1:  # only a single elem in batch
+                    prizes = prizes.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
                 env_dists.append(dists)
                 prizes_list.append(prizes)
-                max_sizes_list.append(data.instance_feature)
+                max_size = data.instance_feature
+                if max_size.dim() == 0:
+                    max_size = max_size.unsqueeze(0)
+                max_sizes_list.append(max_size)
         else:
             for f in possible_factors:
                 data.edge_attr[:, 0] = orig_dist * f
@@ -266,12 +276,17 @@ class GREATRL_OP(nn.Module):
                 prizes = prizes[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if prizes.dim() == 1:  # only a single elem in batch
+                    prizes = prizes.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
                 env_dists.append(dists / f)
                 prizes_list.append(prizes)
-                max_sizes_list.append(data.instance_feature)
+                max_size = data.instance_feature
+                if max_size.dim() == 0:
+                    max_size = max_size.unsqueeze(0)
+                max_sizes_list.append(max_size)
 
         embeddings = torch.cat(embedding_list, dim=0)
         dists = torch.cat(dists_list, dim=0)

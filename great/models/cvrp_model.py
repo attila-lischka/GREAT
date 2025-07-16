@@ -204,6 +204,8 @@ class GREATRL_CVRP(nn.Module):
                 demands = demands[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if demands.dim() == 1:  # only a single elem in batch
+                    demands = demands.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
@@ -226,6 +228,8 @@ class GREATRL_CVRP(nn.Module):
                 demands = demands[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if demands.dim() == 1:  # only a single elem in batch
+                    demands = demands.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
@@ -250,6 +254,8 @@ class GREATRL_CVRP(nn.Module):
                 demands = demands[
                     :, :1, :
                 ].squeeze()  # B x (N+1) # reduce from an edge to a node level
+                if demands.dim() == 1:  # only a single elem in batch
+                    demands = demands.unsqueeze(0)
 
                 embedding_list.append(embeddings)
                 dists_list.append(dists)
@@ -260,7 +266,6 @@ class GREATRL_CVRP(nn.Module):
         demands = torch.cat(demands_list, dim=0)
 
         self.decoder.reset(dists, embeddings, embeddings.size(1))  # decoder reset
-
         env = CVRPEnv(distances=dists, demands=demands, pomo_size=self.group_size)
 
         _, _, _ = env.reset()

@@ -6,6 +6,10 @@ gat.py
 dummyset.py
 great/dataset/data/**/*.txt
 great/dataset/data/**/*.pt
+great/dataset/data/ALL_atsp/*
+great/dataset/data/ALL_tsp/*
+great/dataset/data/ALL_VRP/*
+great/dataset/data/ALL_OP/*
 models/*.ckpt
 outputs/
 testing.py

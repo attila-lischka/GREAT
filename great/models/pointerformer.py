@@ -295,7 +295,8 @@ class RevMHAEncoder(nn.Module):
             demands = demands[
                 :, :1, :
             ].squeeze()  # B x (N+1) # reduce from an edge to a node level
-
+            if demands.dim() == 1:  # only a single elem in batch
+                demands = demands.unsqueeze(0)
             demands = demands.unsqueeze(-1)
 
             x = torch.cat((x, demands), dim=2)
@@ -308,22 +309,26 @@ class RevMHAEncoder(nn.Module):
             prizes = prizes[
                 :, :1, :
             ].squeeze()  # B x (N+1) # reduce from an edge to a node level
-
+            if prizes.dim() == 1:  # only a single elem in batch
+                prizes = prizes.unsqueeze(0)
             prizes = prizes.unsqueeze(-1)
 
             dists = to_dense_adj(data.edge_index, data.batch, data.edge_attr)[
                 :, :, :, 0
             ]  # B x (N+1) x (N+1)
-            dists = dists / data.instance_feature[:, None, None]
+            max_size = data.instance_feature
+            if max_size.dim() == 0:
+                max_size = max_size.unsqueeze(0)
+            dists = dists / max_size[:, None, None]
             return_dists = dists[:, :, 0].unsqueeze(-1)
 
             x = torch.cat((x, prizes, return_dists), dim=2)
 
         if hasattr(self, "init_projection_layer"):
             x = self.init_projection_layer(x)
+
         x = torch.cat([x, x], dim=-1)
         out = self.sequence(x)
-
         out = torch.stack(out.chunk(2, dim=-1))[-1]
 
         return out
